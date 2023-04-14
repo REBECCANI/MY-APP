@@ -1,0 +1,121 @@
+body{
+  background-color: rgb(63, 65, 66);
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(12, 14, 126);
+}
+.Logo{
+  display: flex;
+}
+.Logo > h1{
+  color: white;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.list > ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 20%;
+}
+
+.list >ul >li{
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.list > li, a{
+  text-decoration: none;
+  color: beige;
+  margin: 20% 20%;
+
+}
+
+
+.list li:last-child{
+  margin-right: 200px;
+}
+
+.majordiv >h1{
+  text-align: center;
+  padding: 50px;
+  color: beige;
+  background-color: rgb(3, 4, 75);
+}
+.holder{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(142, 207, 233);
+  margin: 0px 60px 80px 80px;
+}
+.usersdiv{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  border-style: none;
+  padding: 20px;
+  border-width: 1px;
+  
+}
+
+form{
+  border: 2px solid rgb(14, 14, 37);
+  padding: 70px;
+  background-color: rgb(64, 180, 126);
+  align-items: center;
+  justify-content: center;
+}
+.Forma {
+ text-align: center;
+ display: flex;
+ margin: 10% 38%;
+ align-items: center;
+ justify-content: center;
+}
+.Forma-header{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(241, 237, 237);
+  justify-content: center;
+
+}
+
+.me{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(117, 127, 148);
+  border: 20px solid rgb(14, 14, 37);
+}
+.me > img{
+  width: 30%;
+  gap: 1rem;
+  margin-top: 5%;
+}
+.me > p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 30%;
+  margin-bottom: 5%;
+  white-space: 5%;
+  letter-spacing: 20%;
+}
